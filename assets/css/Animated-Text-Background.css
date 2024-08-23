@@ -1,0 +1,22 @@
+#animatedTextBackground {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: #000000;
+}
+
+#animatedTextHeading {
+  background: url("../../assets/img/blood.jpg") repeat;
+  font-family: 'Arbutus Slab', serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 5px;
+  font-size: 12vw;
+  line-height: .8em;
+  background-size: 300%;
+}
+
